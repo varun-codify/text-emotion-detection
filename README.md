@@ -21,3 +21,27 @@ With the rapid spread of misinformation online, identifying fake news has become
 - Streamlit  
 
 ## 📂 Project Structure
+fake-news-detection/
+├── src/
+│ ├── preprocess.py
+│ ├── train.py
+│ ├── predict.py
+│ └── utils.py
+├── app.py
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+
+## 📊 Dataset
+This project uses the **Fake and Real News Dataset** from Kaggle.  
+The dataset is **not included** in this repository due to size constraints and best practices.
+
+👉 You can download it from Kaggle and place it inside a `data/` folder.
+
+## 🚀 How to Run
+
+pip install -r requirements.txt
+python src/train.py
+streamlit run app.py
+
